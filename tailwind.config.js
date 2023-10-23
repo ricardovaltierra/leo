@@ -18,11 +18,11 @@ module.exports = {
         primary: '242a2b',
         secondary: '#808080',
         accent: {
-          DEFAULT: '1cbccf',
-          secondary: '#18abbc',
-          tertiary: '#90c6cd',
+          DEFAULT: '#D01DB2',
+          secondary: '#BD18A7',
+          tertiary: '#CD8FCB',
         },
-        grey: '#e8f0f1',
+        grey: '#F3EAF3',
       },
       fontFamily: {
         primary: 'Poppins',

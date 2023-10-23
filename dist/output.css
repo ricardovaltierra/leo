@@ -585,14 +585,9 @@ video {
   row-gap: 1rem;
 }
 
-.bg-pink-600 {
+.bg-blue-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
-}
-
-.bg-pink-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
 .py-8 {
@@ -685,14 +680,15 @@ h4 {
 }
 
 .btn-accent {
-  background-color: 1cbccf;
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 29 178 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .btn-accent:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(24 171 188 / var(--tw-bg-opacity));
+  background-color: rgb(189 24 167 / var(--tw-bg-opacity));
 }
 
 .btn-white {
@@ -708,7 +704,8 @@ h4 {
 
 .btn-outline {
   border-width: 2px;
-  border-color: 1cbccf;
+  --tw-border-opacity: 1;
+  border-color: rgb(208 29 178 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity));
@@ -716,7 +713,8 @@ h4 {
 
 .btn-outline:hover {
   border-color: transparent;
-  background-color: 1cbccf;
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 29 178 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -782,7 +780,8 @@ h4 {
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  background-color: 1cbccf;
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 29 178 / var(--tw-bg-opacity));
 }
 
 /* faq */
