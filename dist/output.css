@@ -595,6 +595,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-accent {
+  --tw-text-opacity: 1;
+  color: rgb(208 29 178 / var(--tw-text-opacity));
+}
+
 body {
   font-family: Poppins;
   font-size: 17px;
@@ -811,11 +821,20 @@ h4 {
     row-gap: 0px;
   }
 
+  .lg\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
   .lg\:pb-14 {
     padding-bottom: 3.5rem;
   }
 
   .lg\:pt-6 {
     padding-top: 1.5rem;
+  }
+
+  .lg\:pb-1 {
+    padding-bottom: 0.25rem;
   }
 }
