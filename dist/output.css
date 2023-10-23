@@ -577,6 +577,10 @@ video {
   flex-direction: column;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-y-4 {
   row-gap: 1rem;
 }
@@ -794,6 +798,10 @@ h4 {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:justify-normal {
+    justify-content: normal;
   }
 
   .lg\:justify-between {
