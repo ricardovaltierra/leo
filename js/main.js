@@ -9,5 +9,10 @@ const arrowLeftClass = 'ri-arrow-left-s-line';
 const arrowRightClass = 'ri-arrow-right-s-line';
 
 closeBtn.addEventListener('click', () => {
-  console.log('click!!');
+  if (mobileNav.classList.contains(navClosedClass)) {
+    mobileNav.classList.toggle(navOpenedClass);
+
+    closeBtnIcn.classList.toggle(arrowLeftClass);
+    closeBtnIcn.classList.toggle(arrowRightClass);
+  }
 });
