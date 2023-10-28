@@ -154,7 +154,7 @@
               </a>
             </li>
             <li class="">
-              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all
+              <a href="#" class="text-secondary hover:text-accent transition-all
                 duration-300"
                 >
                 Aviso de privacidad
@@ -162,7 +162,22 @@
             </li>
           </ul>
           <!-- form -->
-          <form>form </form>
+          <form class="flex space-x-2">
+            <label 
+              for="search-input"
+              class="flex justify-center items-center group">
+              <i class="ri-search-line text-2xl text-accent"></i>
+            </label>
+            <input 
+              type="text"
+              id="search-input"
+              placeholder="Buscar..."
+              class="outline-none w-[100px]
+              focus:w-[180px] focus:border-b-2 focus:border-accent
+              placeholder:italic placeholder:text-base transition-all
+              duration-150"
+            />
+          </form>
         </nav>
       </div>
     </div>
