@@ -617,12 +617,12 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
 .mb-\[26px\] {
   margin-bottom: 26px;
+}
+
+.mb-\[42px\] {
+  margin-bottom: 42px;
 }
 
 .flex {
@@ -684,14 +684,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[814\] {
-  max-width: 814;
 }
 
 .max-w-\[814px\] {
@@ -799,6 +791,11 @@ video {
   padding-right: 100px;
 }
 
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -809,29 +806,14 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[10\] {
-  padding-top: 10;
-  padding-bottom: 10;
-}
-
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[20px\] {
-  padding-left: 20px;
-  padding-right: 20px;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pr-4 {
@@ -847,14 +829,14 @@ video {
   line-height: 2rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-medium {
@@ -865,24 +847,12 @@ video {
   text-transform: uppercase;
 }
 
-.tracking-\[\] {
-  letter-spacing: ;
-}
-
-.tracking-\[2\.\] {
-  letter-spacing: 2.;
-}
-
-.tracking-\[2\.24px\] {
-  letter-spacing: 2.24px;
-}
-
-.tracking-\[1\.24px\] {
-  letter-spacing: 1.24px;
-}
-
 .tracking-\[0\.24px\] {
   letter-spacing: 0.24px;
+}
+
+.text-\[\#9ab4bb7\] {
+  color: #9ab4bb7;
 }
 
 .text-accent {
@@ -900,29 +870,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#\] {
-  color: #;
-}
-
-.text-\[\#9ab\] {
+.text-green-600 {
   --tw-text-opacity: 1;
-  color: rgb(153 170 187 / var(--tw-text-opacity));
-}
-
-.text-\[\#9ab4\] {
-  color: #9ab4;
-}
-
-.text-\[\#9ab4b\] {
-  color: #9ab4b;
-}
-
-.text-\[\#9ab4bb7\] {
-  color: #9ab4bb7;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -1188,6 +1138,12 @@ h4 {
   border-color: rgb(208 29 178 / var(--tw-border-opacity));
 }
 
+@media (min-width: 768px) {
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+}
+
 @media (min-width: 960px) {
   .lg\:relative {
     position: relative;
@@ -1261,14 +1217,6 @@ h4 {
 
   .xl\:flex {
     display: flex;
-  }
-
-  .xl\:w-\[\] {
-    width: ;
-  }
-
-  .xl\:w-\[48\] {
-    width: 48;
   }
 
   .xl\:w-\[48\%\] {
