@@ -653,6 +653,10 @@ video {
   height: 100vh;
 }
 
+.h-\[4000\] {
+  height: 4000;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -692,6 +696,10 @@ video {
 
 .max-w-\[814px\] {
   max-width: 814px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .cursor-pointer {
@@ -820,6 +828,41 @@ video {
   padding-bottom: 10px;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-\[100\] {
+  padding-top: 100;
+  padding-bottom: 100;
+}
+
+.py-\[1000px\] {
+  padding-top: 1000px;
+  padding-bottom: 1000px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[-100\] {
+  padding-top: -100;
+  padding-bottom: -100;
+}
+
+.py-\[-1000px\] {
+  padding-top: -1000px;
+  padding-bottom: -1000px;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -843,8 +886,17 @@ video {
   line-height: 1.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-\[\#9ab4bb7\] {
@@ -869,6 +921,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-accent-tertiary {
+  --tw-text-opacity: 1;
+  color: rgb(205 143 203 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -1192,6 +1249,11 @@ h4 {
     padding-right: 50px;
   }
 
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .lg\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -1211,6 +1273,14 @@ h4 {
     margin-right: 0px;
   }
 
+  .xl\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -1223,6 +1293,19 @@ h4 {
     flex-direction: row;
   }
 
+  .xl\:border {
+    border-width: 1px;
+  }
+
+  .xl\:border-r {
+    border-right-width: 1px;
+  }
+
+  .xl\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .xl\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1233,5 +1316,17 @@ h4 {
 
   .xl\:text-left {
     text-align: left;
+  }
+
+  .xl\:text-\[64px\] {
+    font-size: 64px;
+  }
+
+  .xl\:text-\[\] {
+    color: ;
+  }
+
+  .xl\:text-\[64\] {
+    color: 64;
   }
 }
