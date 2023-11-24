@@ -608,6 +608,11 @@ video {
   z-index: 20;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -616,11 +621,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .-ml-12 {
@@ -633,6 +633,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .mb-\[15px\] {
@@ -653,10 +657,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
 }
 
 .flex {
@@ -794,6 +794,11 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-x-14 {
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
 }
 
 .gap-x-2 {
@@ -966,6 +971,10 @@ video {
   font-size: 22px;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -974,10 +983,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[26px\] {
-  font-size: 26px;
 }
 
 .font-light {
@@ -1002,10 +1007,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.tracking-\[\] {
-  letter-spacing: ;
 }
 
 .tracking-\[2\.24px\] {
@@ -1044,14 +1045,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#\] {
-  color: #;
 }
 
 .shadow-2xl {
@@ -1363,11 +1356,6 @@ h4 {
 .after\:w-10::after {
   content: var(--tw-content);
   width: 2.5rem;
-}
-
-.after\:bg-quoteLeft::after {
-  content: var(--tw-content);
-  background-image: url(../../assets/icons/testimonials/quote-left.svg);
 }
 
 .after\:bg-quoteRight::after {
