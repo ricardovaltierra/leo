@@ -703,6 +703,22 @@ video {
   height: 100vh;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
+.h-\[420px\] {
+  height: 420px;
+}
+
 .min-h-\[288px\] {
   min-height: 288px;
 }
